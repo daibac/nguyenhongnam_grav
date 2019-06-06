@@ -1,0 +1,11 @@
+state: enabled
+email: nguyenhongnamphoto@gmail.com
+fullname: 'Nguyễn Hồng Nam'
+title: Administrator
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$dIl5tj4F4n9tgW.bxmZtbufeNeYWzbl8BYP3rCpFWzXnrOT450kjq
