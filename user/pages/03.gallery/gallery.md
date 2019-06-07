@@ -36,7 +36,7 @@ gallery:
         description: ' Đẹp quá '
     -
         filter: chan_dung
-        image: nguyen-hong-nam-chan-dung-mau-anh-4.jpg
+        image: nguyen-hong-nam-chan-dung-mau-anh-rang-ro.jpg
         description: 'Chân dung đẹp'
     -
         filter: thien_nhien
@@ -195,47 +195,43 @@ gallery:
         
     -
         filter: chan_dung
-        image: nguyen-hong-nam-chan-dung-mau-anh-1.jpg
+        image: nguyen-hong-nam-chan-dung-mau-anh-tuoi-tam.jpg
         description: Người mẫu ảnh
     -
         filter: chan_dung
-        image: nguyen-hong-nam-chan-dung-mau-anh-2.jpg
+        image: nguyen-hong-nam-chan-dung-mau-anh-bai-bien-dep.jpg
         description: Người mẫu ảnh
     -
         filter: chan_dung
-        image: nguyen-hong-nam-chan-dung-mau-anh-3.jpg
+        image: nguyen-hong-nam-chan-dung-mau-anh-xe-ngua.jpg
         description: Người mẫu ảnh
     -
         filter: chan_dung
-        image: nguyen-hong-nam-chan-dung-mau-anh-4.jpg
+        image: nguyen-hong-nam-chan-dung-mau-anh-bai-bien.jpg
         description: Người mẫu ảnh
     -
         filter: chan_dung
-        image: nguyen-hong-nam-chan-dung-mau-anh-5.jpg
+        image: nguyen-hong-nam-chan-dung-mau-anh-ao-dai-tim.jpg
         description: Người mẫu ảnh
     -
         filter: chan_dung
-        image: nguyen-hong-nam-chan-dung-mau-anh-6.jpg
-        description: Người mẫu ảnh
-    -
-        filter: chan_dung
-        image: nguyen-hong-nam-chan-dung-mau-anh-7.jpg
+        image: nguyen-hong-nam-chan-dung-mau-anh-tinh-co.jpg
         description: Đầy tình cờ. 
     -
         filter: chan_dung
-        image: nguyen-hong-nam-chan-dung-mau-anh-8.jpg
+        image: nguyen-hong-nam-chan-dung-mau-anh-ao-dai.jpg
         description: Người mẫu ảnh
     -
         filter: chan_dung
-        image: nguyen-hong-nam-chan-dung-mau-anh-9.jpg
+        image: nguyen-hong-nam-chan-dung-mau-anh-co-gai-hoa.jpg
         description: Người mẫu ảnh
     -
         filter: chan_dung
-        image: nguyen-hong-nam-chan-dung-mau-anh-10.jpg
+        image: nguyen-hong-nam-chan-dung-mau-anh-vungcao.jpg
         description: Cô gái vùng cao
     -
         filter: chan_dung
-        image: nguyen-hong-nam-chan-dung-mau-anh-11.jpg
+        image: nguyen-hong-nam-chan-dung-mau-anh-truong-ban.jpg
         description: Trưởng bản
 
 
