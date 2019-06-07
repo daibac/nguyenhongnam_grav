@@ -237,7 +237,7 @@ class __TwigTemplate_ca9c27077860bd96de7f7ebc85d19f473693b9530c4ae06d8f2b9bbec61
         <div class=\"tabs-content\">
             ";
                 // line 54
-                $this->loadTemplate("forms/fields/tabs/tabs.html.twig", "forms/fields/tabs/tabs.html.twig", 54, "58872015")->display(twig_array_merge($context, ["name" => $this->getAttribute(($context["field"] ?? null), "name", []), "fields" => $this->getAttribute(($context["field"] ?? null), "fields", [])]));
+                $this->loadTemplate("forms/fields/tabs/tabs.html.twig", "forms/fields/tabs/tabs.html.twig", 54, "1790831647")->display(twig_array_merge($context, ["name" => $this->getAttribute(($context["field"] ?? null), "name", []), "fields" => $this->getAttribute(($context["field"] ?? null), "fields", [])]));
                 // line 62
                 echo "        </div>
     ";
@@ -345,7 +345,7 @@ class __TwigTemplate_ca9c27077860bd96de7f7ebc85d19f473693b9530c4ae06d8f2b9bbec61
 
 
 /* forms/fields/tabs/tabs.html.twig */
-class __TwigTemplate_ca9c27077860bd96de7f7ebc85d19f473693b9530c4ae06d8f2b9bbec6185de0___58872015 extends \Twig\Template
+class __TwigTemplate_ca9c27077860bd96de7f7ebc85d19f473693b9530c4ae06d8f2b9bbec6185de0___1790831647 extends \Twig\Template
 {
     public function __construct(Environment $env)
     {

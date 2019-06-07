@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1559810676,
-    'checksum' => '486813a580104faacd21b49710090607',
+    'timestamp' => 1559824138,
+    'checksum' => '2c2b10a7ae02e5fa1bb7725c35a68808',
     'files' => [
         'user/config' => [
             'backups' => [
@@ -31,7 +31,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1559810674
+                'modified' => 1559824135
             ],
             'themes/photographer' => [
                 'file' => 'user/config/themes/photographer.yaml',

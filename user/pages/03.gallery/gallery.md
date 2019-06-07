@@ -1,41 +1,43 @@
 ---
 title: Gallery
+media_order: 'chandung001.jpg,chandung0010.jpg,chandung0011.jpg,chandung0012.jpg,chandung0013.jpg,chandung0014.jpg,chandung0015.jpg,chandung002.jpg,chandung003.jpg,chandung004.jpg,chandung005.jpg,chandung006.jpg,chandung007.jpg,chandung008.jpg,chandung009.jpg,danang001.jpg,danang0010.jpg,danang0011.jpg,danang0012.jpg,danang0013.jpg,danang0014.jpg,danang0015.jpg,danang0016.jpg,danang002.jpg,danang003.jpg,danang004.jpg,danang005.jpg,danang006.jpg,danang007.jpg,danang008.jpg,danang009.jpg,dongvat001.jpg,dongvat0010.jpg,dongvat0011.jpg,dongvat0012.jpg,dongvat0013.jpg,dongvat0014.jpg,dongvat0015.jpg,dongvat0016.jpg,dongvat0017.jpg,dongvat0018.jpg,dongvat0019.jpg,dongvat002.jpg,dongvat0020.jpg,dongvat0021.jpg,dongvat0022.jpg,dongvat0023.jpg,dongvat0024.jpg,dongvat003.jpg,dongvat004.jpg,dongvat005.jpg,dongvat006.jpg,dongvat007.jpg,dongvat008.jpg,dongvat009.jpg,hoa001.jpg,hoa0010.jpg,hoa0011.jpg,hoa0012.jpg,hoa0013.jpg,hoa0014.jpg,hoa0015.jpg,hoa0016.jpg,hoa0017.jpg,hoa0018.jpg,hoa0019.jpg,hoa002.jpg,hoa0020.jpg,hoa0021.jpg,hoa0022.jpg,hoa0023.jpg,hoa0024.jpg,hoa003.jpg,hoa004.jpg,hoa005.jpg,hoa006.jpg,hoa007.jpg,hoa008.jpg,hoa009.jpg,kientruc001.jpg,kientruc0010.jpg,kientruc0011.jpg,kientruc0012.jpg,kientruc002.jpg,kientruc003.jpg,kientruc004.jpg,kientruc005.jpg,kientruc006.jpg,kientruc007.jpg,kientruc008.jpg,kientruc009.jpg,thiennhien001.jpg,thiennhien0010.jpg,thiennhien0011.jpg,thiennhien0012.jpg,thiennhien0013.jpg,thiennhien0014.jpg,thiennhien0015.jpg,thiennhien0016.jpg,thiennhien002.jpg,thiennhien003.jpg,thiennhien004.jpg,thiennhien005.jpg,thiennhien006.jpg,thiennhien007.jpg,thiennhien008.jpg,thiennhien009.jpg'
 menu: Gallery
 onpage_menu: true
 filters:
     -
         key: animal
-        name: Động vật
+        name: 'Động vật'
     -
         key: da_nang
-        name: Đà Nẵng
+        name: 'Đà Nẵng'
     -
         key: nature
-        name: thiên nhiên
+        name: 'thiên nhiên'
     -
         key: chan_dung
-        name: chân dung
+        name: 'chân dung'
     -
         key: kien_truc
-        name: kiến trúc
+        name: 'kiến trúc'
     -
         key: hoa_buom
-        name: hoa bướm
+        name: 'hoa bướm'
     -
         key: hang_dong
-        name: hang động
+        name: 'hang động'
 gallery:
-    -   filter: animal
+    -
+        filter: animal
         image: dongvat001.jpg
-        description: Sư tử
+        description: 'Sư tử'
     -
         filter: animal
         image: dongvat002.jpg
-        description: Tê giác
+        description: 'Tê giác'
     -
         filter: animal
         image: dongvat003.jpg
-        description: Hổ trắng
+        description: 'Hổ trắng'
     -
         filter: animal
         image: dongvat004.jpg
@@ -43,7 +45,7 @@ gallery:
     -
         filter: animal
         image: dongvat005.jpg
-        description: Hổ nhìn gì đấy?
+        description: 'Hổ nhìn gì đấy?'
     -
         filter: animal
         image: dongvat006.jpg
@@ -63,23 +65,23 @@ gallery:
     -
         filter: animal
         image: dongvat0010.jpg
-        description: Khỉ 
+        description: Khỉ
     -
         filter: animal
         image: dongvat0011.jpg
-        description: Tê giác
+        description: 'Tê giác'
     -
         filter: animal
         image: dongvat0012.jpg
-        description: Tê giác
+        description: 'Tê giác'
     -
         filter: animal
         image: dongvat0013.jpg
-        description: Hươu con
+        description: 'Hươu con'
     -
         filter: animal
         image: dongvat0014.jpg
-        description: Công trắng
+        description: 'Công trắng'
     -
         filter: animal
         image: dongvat0015.jpg
@@ -123,67 +125,67 @@ gallery:
     -
         filter: da_nang
         image: danang001.jpg
-        description: 'Đà_Nẵng'
+        description: Đà_Nẵng
     -
         filter: da_nang
         image: danang002.jpg
-        description: 'Đà_Nẵng'
+        description: Đà_Nẵng
     -
         filter: da_nang
         image: danang003.jpg
-        description: 'Đà_Nẵng'
+        description: Đà_Nẵng
     -
         filter: da_nang
         image: danang004.jpg
-        description: 'Đà_Nẵng'
+        description: Đà_Nẵng
     -
         filter: da_nang
         image: danang005.jpg
-        description: 'Đà_Nẵng'
+        description: Đà_Nẵng
     -
         filter: da_nang
         image: danang006.jpg
-        description: 'Đà_Nẵng'
+        description: Đà_Nẵng
     -
         filter: da_nang
         image: danang007.jpg
-        description: 'Đà_Nẵng'
+        description: Đà_Nẵng
     -
         filter: da_nang
         image: danang008.jpg
-        description: 'Đà_Nẵng'
+        description: Đà_Nẵng
     -
         filter: da_nang
         image: danang009.jpg
-        description: 'Đà_Nẵng'
+        description: Đà_Nẵng
     -
         filter: da_nang
         image: danang0010.jpg
-        description: 'Đà_Nẵng'
+        description: Đà_Nẵng
     -
         filter: da_nang
         image: danang0011.jpg
-        description: 'Đà_Nẵng'
+        description: Đà_Nẵng
     -
         filter: da_nang
         image: danang0012.jpg
-        description: 'Đà_Nẵng'
+        description: Đà_Nẵng
     -
         filter: da_nang
         image: danang0013.jpg
-        description: 'Đà_Nẵng'
+        description: Đà_Nẵng
     -
         filter: da_nang
         image: danang0014.jpg
-        description: 'Đà_Nẵng'
+        description: Đà_Nẵng
     -
         filter: da_nang
         image: danang0015.jpg
-        description: 'Đà_Nẵng'
+        description: Đà_Nẵng
     -
         filter: da_nang
         image: danang0016.jpg
-        description: 'Đà_Nẵng'
+        description: Đà_Nẵng
     -
         filter: nature
         image: thiennhien001.jpg
