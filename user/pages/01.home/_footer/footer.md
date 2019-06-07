@@ -5,7 +5,7 @@ about:
   image: nguyen-hong-nam-nhiep-anh-gia.jpg
   text: Vì đam mê nhiếp ảnh!
   readme_url: "about"
-  readme_text: read more
+  readme_text: Xem thêm
 
 locations:
   title: Địa Chỉ
