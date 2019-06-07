@@ -13,7 +13,8 @@ body {
 	overflow: hidden;
 	background: url(../img/totop.png) 0 bottom no-repeat;
 	position: fixed;
-	margin-right: -690px !important;
+	margin-right: -690px !important;	
+    left: calc( 100% - 100px);
 	right: 50%;
 	bottom: 60px;
 	z-index: 999;
