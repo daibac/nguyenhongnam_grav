@@ -44,36 +44,36 @@ class __TwigTemplate_b41ee1df86494a1a793079d73dd556eca07461d02e6ea6a32dff6936c19
     ";
         // line 4
         $this->displayBlock('head', $context, $blocks);
-        // line 62
+        // line 63
         echo "    </head>
     <body>
         ";
-        // line 64
+        // line 65
         $this->displayBlock('header', $context, $blocks);
-        // line 67
+        // line 68
         echo "
         ";
-        // line 68
+        // line 69
         $this->displayBlock('body', $context, $blocks);
-        // line 71
+        // line 72
         echo "
 
         <script src=\"";
-        // line 73
+        // line 74
         echo ($context["theme_url"] ?? null);
         echo "/js/bootstrap.min.js\" type=\"text/javascript\" ></script>
         <script src=\"";
-        // line 74
+        // line 75
         echo ($context["theme_url"] ?? null);
         echo "/js/tm-scripts.js\" type=\"text/javascript\" ></script>
 
         ";
-        // line 76
+        // line 77
         $this->displayBlock('footer', $context, $blocks);
-        // line 79
+        // line 80
         echo "
         ";
-        // line 80
+        // line 81
         echo $this->getAttribute(($context["assets"] ?? null), "js", [0 => "bottom"], "method");
         echo " 
     </body>
@@ -87,8 +87,9 @@ class __TwigTemplate_b41ee1df86494a1a793079d73dd556eca07461d02e6ea6a32dff6936c19
     {
         // line 5
         echo "        <meta charset=\"utf-8\" />
+    <meta name=\"keywords\" content=\"nguyen-hong-nam, nguyenhongnam, hong-nam, hongnam, nhiep-anh, nhiepanh, nguyenhongnamdanang,  nguyen-hong-nam-da-nang, nguyen-hong-nam-song-han\">
         <title>";
-        // line 6
+        // line 7
         if ($this->getAttribute(($context["header"] ?? null), "title", [])) {
             echo $this->getAttribute(($context["header"] ?? null), "title", []);
             echo " | ";
@@ -96,29 +97,29 @@ class __TwigTemplate_b41ee1df86494a1a793079d73dd556eca07461d02e6ea6a32dff6936c19
         echo $this->getAttribute(($context["site"] ?? null), "title", []);
         echo "</title>
         ";
-        // line 7
-        $this->loadTemplate("partials/metadata.html.twig", "partials/base.html.twig", 7)->display($context);
         // line 8
+        $this->loadTemplate("partials/metadata.html.twig", "partials/base.html.twig", 8)->display($context);
+        // line 9
         echo "        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no\">
         <link rel=\"icon\" type=\"image/png\" href=\"";
-        // line 9
+        // line 10
         echo ($context["theme_url"] ?? null);
         echo "/img/favicon.ico\" />
 
          ";
-        // line 11
+        // line 12
         $this->displayBlock('stylesheets', $context, $blocks);
-        // line 21
-        echo "
-        ";
         // line 22
-        $this->displayBlock('javascripts', $context, $blocks);
-        // line 43
         echo "
         ";
+        // line 23
+        $this->displayBlock('javascripts', $context, $blocks);
         // line 44
+        echo "
+        ";
+        // line 45
         $this->displayBlock('assets', $context, $blocks);
-        // line 48
+        // line 49
         echo "
         <script>
         \$(window).load( function(){
@@ -129,101 +130,101 @@ class __TwigTemplate_b41ee1df86494a1a793079d73dd556eca07461d02e6ea6a32dff6936c19
         </script>
 
         ";
-        // line 57
+        // line 58
         if ((($this->getAttribute(($context["browser"] ?? null), "getBrowser", []) == "msie") && ($this->getAttribute(($context["browser"] ?? null), "getVersion", []) < 9))) {
-            // line 58
+            // line 59
             echo "                 <div style='text-align:center'><a href=\"http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode\"><img src=\"http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg\" border=\"0\" height=\"42\" width=\"820\" alt=\"You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today.\" /></a></div>
          ";
         }
-        // line 60
+        // line 61
         echo "
         ";
     }
 
-    // line 11
+    // line 12
     public function block_stylesheets($context, array $blocks = [])
     {
-        // line 12
-        echo "                ";
-        $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => "theme://css/bootstrap.css"], "method");
         // line 13
         echo "                ";
-        $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => "theme://css/style.css"], "method");
+        $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => "theme://css/bootstrap.css"], "method");
         // line 14
         echo "                ";
-        $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => "theme://css/camera.css"], "method");
+        $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => "theme://css/style.css"], "method");
         // line 15
+        echo "                ";
+        $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => "theme://css/camera.css"], "method");
+        // line 16
         echo "
                 ";
-        // line 16
+        // line 17
         if ((($this->getAttribute(($context["browser"] ?? null), "getBrowser", []) == "msie") && ($this->getAttribute(($context["browser"] ?? null), "getVersion", []) < 9))) {
-            // line 17
+            // line 18
             echo "               ";
             $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => "theme://assets/tm/css/tm_docs.css"], "method");
-            // line 18
+            // line 19
             echo "                ";
         }
-        // line 19
+        // line 20
         echo "
         ";
     }
 
-    // line 22
+    // line 23
     public function block_javascripts($context, array $blocks = [])
     {
-        // line 23
-        echo "            ";
-        $this->getAttribute(($context["assets"] ?? null), "add", [0 => "jquery", 1 => 101], "method");
         // line 24
         echo "            ";
-        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/jquery-migrate-1.2.1.js"], "method");
+        $this->getAttribute(($context["assets"] ?? null), "add", [0 => "jquery", 1 => 101], "method");
         // line 25
         echo "            ";
-        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/superfish.js"], "method");
+        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/jquery-migrate-1.2.1.js"], "method");
         // line 26
         echo "            ";
-        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/jquery.easing.1.3.js"], "method");
+        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/superfish.js"], "method");
         // line 27
         echo "            ";
-        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/jquery.mobilemenu.js"], "method");
+        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/jquery.easing.1.3.js"], "method");
         // line 28
         echo "            ";
-        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/jquery.ui.totop.js"], "method");
+        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/jquery.mobilemenu.js"], "method");
         // line 29
         echo "            ";
-        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/jquery.touchSwipe.min.js"], "method");
+        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/jquery.ui.totop.js"], "method");
         // line 30
         echo "            ";
-        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/jquery.equalheights.js"], "method");
+        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/jquery.touchSwipe.min.js"], "method");
         // line 31
         echo "            ";
-        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/camera.js"], "method");
+        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/jquery.equalheights.js"], "method");
         // line 32
+        echo "            ";
+        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/camera.js"], "method");
+        // line 33
         echo "
             ";
-        // line 33
+        // line 34
         if (((($this->getAttribute(($context["browser"] ?? null), "getBrowser", []) == "msie") && ($this->getAttribute(($context["browser"] ?? null), "getVersion", []) > 9)) || ($this->getAttribute(($context["browser"] ?? null), "getBrowser", []) != "msie"))) {
-            // line 34
+            // line 35
             echo "                 ";
             $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/jquery.mobile.customized.min.js"], "method");
-            // line 35
+            // line 36
             echo "            ";
         }
-        // line 36
+        // line 37
         echo "
             ";
-        // line 37
+        // line 38
         if ((($this->getAttribute(($context["browser"] ?? null), "getBrowser", []) == "msie") && ($this->getAttribute(($context["browser"] ?? null), "getVersion", []) < 9))) {
-            // line 38
-            echo "                ";
-            $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://assets/assets/js/html5shiv.js"], "method");
             // line 39
             echo "                ";
-            $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://assets/assets/js/respond.min.js"], "method");
+            $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://assets/assets/js/html5shiv.js"], "method");
             // line 40
+            echo "                ";
+            $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://assets/assets/js/respond.min.js"], "method");
+            // line 41
             echo "            ";
         }
-        // line 41
+        // line 42
         echo "
         ";
     }
@@ -233,53 +234,53 @@ class __TwigTemplate_b41ee1df86494a1a793079d73dd556eca07461d02e6ea6a32dff6936c19
         $this->env->getExtension('Phive\Twig\Extensions\Deferred\DeferredExtension')->defer($this, 'assets');
     }
 
-    // line 44
+    // line 45
     public function block_assets_deferred($context, array $blocks = array())
     {
-        // line 45
+        // line 46
         echo "            ";
         echo $this->getAttribute(($context["assets"] ?? null), "css", [], "method");
         echo "
             ";
-        // line 46
+        // line 47
         echo $this->getAttribute(($context["assets"] ?? null), "js", [], "method");
         echo "
         ";
         $this->env->getExtension('Phive\Twig\Extensions\Deferred\DeferredExtension')->resolve($this, $context, $blocks);
     }
 
-    // line 64
+    // line 65
     public function block_header($context, array $blocks = [])
     {
-        // line 65
-        echo "             ";
-        $this->loadTemplate("partials/header.html.twig", "partials/base.html.twig", 65)->display($context);
         // line 66
-        echo "        ";
-    }
-
-    // line 68
-    public function block_body($context, array $blocks = [])
-    {
-        // line 69
-        echo "            ";
-        $this->displayBlock('content', $context, $blocks);
-        // line 70
+        echo "             ";
+        $this->loadTemplate("partials/header.html.twig", "partials/base.html.twig", 66)->display($context);
+        // line 67
         echo "        ";
     }
 
     // line 69
+    public function block_body($context, array $blocks = [])
+    {
+        // line 70
+        echo "            ";
+        $this->displayBlock('content', $context, $blocks);
+        // line 71
+        echo "        ";
+    }
+
+    // line 70
     public function block_content($context, array $blocks = [])
     {
     }
 
-    // line 76
+    // line 77
     public function block_footer($context, array $blocks = [])
     {
-        // line 77
-        echo "             ";
-        $this->loadTemplate("partials/footer.html.twig", "partials/base.html.twig", 77)->display($context);
         // line 78
+        echo "             ";
+        $this->loadTemplate("partials/footer.html.twig", "partials/base.html.twig", 78)->display($context);
+        // line 79
         echo "        ";
     }
 
@@ -295,7 +296,7 @@ class __TwigTemplate_b41ee1df86494a1a793079d73dd556eca07461d02e6ea6a32dff6936c19
 
     public function getDebugInfo()
     {
-        return array (  283 => 78,  280 => 77,  277 => 76,  272 => 69,  268 => 70,  265 => 69,  262 => 68,  258 => 66,  255 => 65,  252 => 64,  245 => 46,  240 => 45,  237 => 44,  227 => 41,  224 => 40,  221 => 39,  218 => 38,  216 => 37,  213 => 36,  210 => 35,  207 => 34,  205 => 33,  202 => 32,  199 => 31,  196 => 30,  193 => 29,  190 => 28,  187 => 27,  184 => 26,  181 => 25,  178 => 24,  175 => 23,  172 => 22,  167 => 19,  164 => 18,  161 => 17,  159 => 16,  156 => 15,  153 => 14,  150 => 13,  147 => 12,  144 => 11,  139 => 60,  135 => 58,  133 => 57,  122 => 48,  120 => 44,  117 => 43,  115 => 22,  112 => 21,  110 => 11,  105 => 9,  102 => 8,  100 => 7,  92 => 6,  89 => 5,  86 => 4,  77 => 80,  74 => 79,  72 => 76,  67 => 74,  63 => 73,  59 => 71,  57 => 68,  54 => 67,  52 => 64,  48 => 62,  46 => 4,  41 => 2,  38 => 1,);
+        return array (  284 => 79,  281 => 78,  278 => 77,  273 => 70,  269 => 71,  266 => 70,  263 => 69,  259 => 67,  256 => 66,  253 => 65,  246 => 47,  241 => 46,  238 => 45,  228 => 42,  225 => 41,  222 => 40,  219 => 39,  217 => 38,  214 => 37,  211 => 36,  208 => 35,  206 => 34,  203 => 33,  200 => 32,  197 => 31,  194 => 30,  191 => 29,  188 => 28,  185 => 27,  182 => 26,  179 => 25,  176 => 24,  173 => 23,  168 => 20,  165 => 19,  162 => 18,  160 => 17,  157 => 16,  154 => 15,  151 => 14,  148 => 13,  145 => 12,  140 => 61,  136 => 59,  134 => 58,  123 => 49,  121 => 45,  118 => 44,  116 => 23,  113 => 22,  111 => 12,  106 => 10,  103 => 9,  101 => 8,  93 => 7,  89 => 5,  86 => 4,  77 => 81,  74 => 80,  72 => 77,  67 => 75,  63 => 74,  59 => 72,  57 => 69,  54 => 68,  52 => 65,  48 => 63,  46 => 4,  41 => 2,  38 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -313,6 +314,7 @@ class __TwigTemplate_b41ee1df86494a1a793079d73dd556eca07461d02e6ea6a32dff6936c19
 <head>
     {% block head %}
         <meta charset=\"utf-8\" />
+    <meta name=\"keywords\" content=\"nguyen-hong-nam, nguyenhongnam, hong-nam, hongnam, nhiep-anh, nhiepanh, nguyenhongnamdanang,  nguyen-hong-nam-da-nang, nguyen-hong-nam-song-han\">
         <title>{% if header.title %}{{ header.title }} | {% endif %}{{ site.title }}</title>
         {% include 'partials/metadata.html.twig' %}
         <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no\">

@@ -12,6 +12,7 @@ include "./action.php";
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
+    <meta name="keywords" content="nguyen-hong-nam, nguyenhongnam, hong-nam, hongnam, nhiep-anh, nhiepanh, nguyenhongnamdanang,  nguyen-hong-nam-da-nang, nguyen-hong-nam-song-han">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>Rememberme PHP library test</title>
   <meta name="author" content="Gabriel Birke">

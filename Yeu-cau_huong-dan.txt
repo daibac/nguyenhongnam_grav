@@ -1,0 +1,15 @@
+﻿-- Yêu cầu --
+
+	1.Máy chủ Web (Apache, Nginx, LiteSpeed, Nhẹ, IIS, v.v.)
+	2.PHP 7.1.3 trở lên
+	3.hmm ... thực sự là vậy, (nhưng vui lòng xem các yêu cầu của PHP để có trải nghiệm mượt mà)!
+
+-- Máy chủ Web --
+	Myas chư web phải đang chạy PHP 7.1.3 trở lên.
+
+--------------------------------------------------------
+-- Hướng dẫn --
+	upload source code lên thư mục gốc của host.
+	Truy cập vào admin: thêm "/admin" vào sau link trang chủ.
+	Tên đăng nhập admim: nguyenhongnam
+	Mật khẩu đăng nhập admin: Nguyenhongnam2019

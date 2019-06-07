@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1559824138,
-    'checksum' => '2c2b10a7ae02e5fa1bb7725c35a68808',
+    'timestamp' => 1559871873,
+    'checksum' => 'b7702ede5b9f56fd42dded8b93cb58a9',
     'files' => [
         'user/config' => [
             'backups' => [
@@ -23,7 +23,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1557420760
+                'modified' => 1559871108
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -35,7 +35,7 @@ return [
             ],
             'themes/photographer' => [
                 'file' => 'user/config/themes/photographer.yaml',
-                'modified' => 1559810558
+                'modified' => 1559871873
             ]
         ],
         'system/config' => [
@@ -638,15 +638,15 @@ node_modules'
             'title' => 'Grav',
             'default_lang' => 'en',
             'author' => [
-                'name' => 'Joe Bloggs',
-                'email' => 'joe@example.com'
+                'name' => 'Nguyen Hong Nam',
+                'email' => 'nguyenhongnam2019@gmail.com'
             ],
             'taxonomies' => [
                 0 => 'category',
                 1 => 'tag'
             ],
             'metadata' => [
-                'description' => 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+                'description' => 'Nhiếp ảnh gia Nguyễn Hồng Nam.'
             ],
             'summary' => [
                 'enabled' => true,
@@ -899,7 +899,7 @@ node_modules'
                 'enabled' => true,
                 'color' => 'blue',
                 'dropdown' => [
-                    'enabled' => false
+                    'enabled' => true
                 ]
             ]
         ]

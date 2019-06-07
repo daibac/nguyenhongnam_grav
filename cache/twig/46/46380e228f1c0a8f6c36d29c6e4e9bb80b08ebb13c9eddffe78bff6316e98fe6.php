@@ -43,8 +43,9 @@ class __TwigTemplate_d543a6531d8167a0c7f353da538f6e9b905c624aa2c92a8d09662a661b7
     {
         // line 4
         echo "    <meta charset=\"utf-8\" />
+    <meta name=\"keywords\" content=\"nguyen-hong-nam, nguyenhongnam, hong-nam, hongnam, nhiep-anh, nhiepanh, nguyenhongnamdanang,  nguyen-hong-nam-da-nang, nguyen-hong-nam-song-han\">
     <title>";
-        // line 5
+        // line 6
         if ($this->getAttribute(($context["header"] ?? null), "title", [])) {
             echo $this->getAttribute(($context["header"] ?? null), "title", []);
             echo " | ";
@@ -52,27 +53,27 @@ class __TwigTemplate_d543a6531d8167a0c7f353da538f6e9b905c624aa2c92a8d09662a661b7
         echo $this->getAttribute(($context["site"] ?? null), "title", []);
         echo "</title>
     ";
-        // line 6
-        $this->loadTemplate("partials/metadata.html.twig", "gallery.html.twig", 6)->display($context);
         // line 7
+        $this->loadTemplate("partials/metadata.html.twig", "gallery.html.twig", 7)->display($context);
+        // line 8
         echo "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no\">
     <link rel=\"icon\" type=\"image/png\" href=\"";
-        // line 8
+        // line 9
         echo ($context["theme_url"] ?? null);
         echo "/img/favicon.ico\" />
 
     ";
-        // line 10
+        // line 11
         $this->displayBlock('stylesheets', $context, $blocks);
-        // line 20
+        // line 21
         echo " ";
         echo $this->getAttribute(($context["assets"] ?? null), "css", [], "method");
         echo "
 
  ";
-        // line 22
+        // line 23
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 40
+        // line 41
         echo $this->getAttribute(($context["assets"] ?? null), "js", [], "method");
         echo "
 
@@ -179,119 +180,119 @@ class __TwigTemplate_d543a6531d8167a0c7f353da538f6e9b905c624aa2c92a8d09662a661b7
 </script>
 
 ";
-        // line 144
+        // line 145
         if ((($this->getAttribute(($context["browser"] ?? null), "getBrowser", []) == "msie") && ($this->getAttribute(($context["browser"] ?? null), "getVersion", []) < 9))) {
-            // line 145
+            // line 146
             echo "   <div style='text-align:center'><a href=\"http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode\"><img src=\"http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg\" border=\"0\" height=\"42\" width=\"820\" alt=\"You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today.\" /></a></div>
 ";
         }
-        // line 147
+        // line 148
         echo "
 ";
     }
 
-    // line 10
+    // line 11
     public function block_stylesheets($context, array $blocks = [])
     {
-        // line 11
-        echo "        ";
-        $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => "theme://css/bootstrap.css"], "method");
         // line 12
         echo "        ";
-        $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => "theme://css/style.css"], "method");
+        $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => "theme://css/bootstrap.css"], "method");
         // line 13
         echo "        ";
-        $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => "theme://css/touchTouch.css"], "method");
+        $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => "theme://css/style.css"], "method");
         // line 14
+        echo "        ";
+        $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => "theme://css/touchTouch.css"], "method");
+        // line 15
         echo "
         ";
-        // line 15
+        // line 16
         if ((($this->getAttribute(($context["browser"] ?? null), "getBrowser", []) == "msie") && ($this->getAttribute(($context["browser"] ?? null), "getVersion", []) < 9))) {
-            // line 16
+            // line 17
             echo "         ";
             $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => "theme://assets/tm/css/tm_docs.css"], "method");
-            // line 17
+            // line 18
             echo "     ";
         }
-        // line 18
+        // line 19
         echo "
  ";
     }
 
-    // line 22
+    // line 23
     public function block_javascripts($context, array $blocks = [])
     {
-        // line 23
-        echo "    ";
-        $this->getAttribute(($context["assets"] ?? null), "add", [0 => "jquery", 1 => 101], "method");
         // line 24
         echo "    ";
-        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/jquery-migrate-1.2.1.js"], "method");
+        $this->getAttribute(($context["assets"] ?? null), "add", [0 => "jquery", 1 => 101], "method");
         // line 25
         echo "    ";
-        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/superfish.js"], "method");
+        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/jquery-migrate-1.2.1.js"], "method");
         // line 26
         echo "    ";
-        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/jquery.mobilemenu.js"], "method");
+        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/superfish.js"], "method");
         // line 27
         echo "    ";
-        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/jquery.easing.1.3.js"], "method");
+        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/jquery.mobilemenu.js"], "method");
         // line 28
         echo "    ";
-        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/jquery.ui.totop.js"], "method");
+        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/jquery.easing.1.3.js"], "method");
         // line 29
         echo "    ";
-        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/jquery.touchSwipe.min.js"], "method");
+        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/jquery.ui.totop.js"], "method");
         // line 30
         echo "    ";
-        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/jquery.equalheights.js"], "method");
+        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/jquery.touchSwipe.min.js"], "method");
         // line 31
         echo "    ";
-        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/touchTouch.jquery.js"], "method");
+        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/jquery.equalheights.js"], "method");
         // line 32
         echo "    ";
-        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/jquery.isotope.min.js"], "method");
+        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/touchTouch.jquery.js"], "method");
         // line 33
+        echo "    ";
+        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/jquery.isotope.min.js"], "method");
+        // line 34
         echo "
     ";
-        // line 34
+        // line 35
         if ((($this->getAttribute(($context["browser"] ?? null), "getBrowser", []) == "msie") && ($this->getAttribute(($context["browser"] ?? null), "getVersion", []) < 9))) {
-            // line 35
-            echo "        ";
-            $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://assets/assets/js/html5shiv.js"], "method");
             // line 36
             echo "        ";
-            $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://assets/assets/js/respond.min.js"], "method");
+            $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://assets/assets/js/html5shiv.js"], "method");
             // line 37
+            echo "        ";
+            $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://assets/assets/js/respond.min.js"], "method");
+            // line 38
             echo "    ";
         }
-        // line 38
+        // line 39
         echo "
 ";
     }
 
-    // line 151
+    // line 152
     public function block_content($context, array $blocks = [])
     {
-        // line 152
+        // line 153
         echo "    <div id=\"content\">
         <div class=\"row_6\">
             <div class=\"container\">
                 <h2 class=\"pad_bot3\">";
-        // line 155
+        // line 156
         echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "title", []);
         echo "</h2>
                 <div class=\"row\">
                     <div class=\"col-lg-12 col-md-12 col-sm-12\">
                         <div id=\"options\" class=\"clearfix\">
                             <ul id=\"filters\" class=\"pagination option-set clearfix\" data-option-key=\"filter\">
-                                <li><a href=\"#filter\" data-option-value=\"*\" class=\"selected\">Show all</a></li>
+                                <li><a href=\"#filter\" data-option-value=\"*\" class=\"selected\">Tất cả ảnh</a></li>
                                 ";
-        // line 161
+        // line 162
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "filters", []));
         foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
-            // line 162
+            // line 163
             echo "                                    <li><a href=\"#filter\" data-option-value=\".";
             echo $this->getAttribute($context["item"], "key", []);
             echo "\">";
@@ -302,22 +303,22 @@ class __TwigTemplate_d543a6531d8167a0c7f353da538f6e9b905c624aa2c92a8d09662a661b7
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 164
+        // line 165
         echo "                            </ul>
                         </div>
                         <div class=\"containerExtra\">
                             <div id=\"container\" class=\"clearfix\">
                                 ";
-        // line 168
+        // line 169
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "gallery", []));
         foreach ($context['_seq'] as $context["_key"] => $context["element"]) {
-            // line 169
+            // line 170
             echo "                                    <div class=\"element transition ";
             echo $this->getAttribute($context["element"], "filter", []);
             echo "\" data-category=\"transition\">
                                         <a href=\"";
-            // line 170
+            // line 171
             echo $this->getAttribute($this->getAttribute($this->getAttribute(($context["page"] ?? null), "media", []), $this->getAttribute($context["element"], "image", []), [], "array"), "url", []);
             echo "\" class=\"thumb\"><figure class=\"img-polaroid\">";
             echo $this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(($context["page"] ?? null), "media", []), $this->getAttribute($context["element"], "image", []), [], "array"), "resize", [0 => 270, 1 => 190], "method"), "html", [], "method");
@@ -330,10 +331,10 @@ class __TwigTemplate_d543a6531d8167a0c7f353da538f6e9b905c624aa2c92a8d09662a661b7
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['element'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 173
+        // line 174
         echo "                            </div>
                             ";
-        // line 174
+        // line 175
         echo $this->getAttribute(($context["page"] ?? null), "content", []);
         echo "
                         </div>
@@ -357,7 +358,7 @@ class __TwigTemplate_d543a6531d8167a0c7f353da538f6e9b905c624aa2c92a8d09662a661b7
 
     public function getDebugInfo()
     {
-        return array (  337 => 174,  334 => 173,  321 => 170,  316 => 169,  312 => 168,  306 => 164,  295 => 162,  291 => 161,  282 => 155,  277 => 152,  274 => 151,  269 => 38,  266 => 37,  263 => 36,  260 => 35,  258 => 34,  255 => 33,  252 => 32,  249 => 31,  246 => 30,  243 => 29,  240 => 28,  237 => 27,  234 => 26,  231 => 25,  228 => 24,  225 => 23,  222 => 22,  217 => 18,  214 => 17,  211 => 16,  209 => 15,  206 => 14,  203 => 13,  200 => 12,  197 => 11,  194 => 10,  189 => 147,  185 => 145,  183 => 144,  76 => 40,  74 => 22,  68 => 20,  66 => 10,  61 => 8,  58 => 7,  56 => 6,  48 => 5,  45 => 4,  42 => 3,  32 => 1,);
+        return array (  338 => 175,  335 => 174,  322 => 171,  317 => 170,  313 => 169,  307 => 165,  296 => 163,  292 => 162,  283 => 156,  278 => 153,  275 => 152,  270 => 39,  267 => 38,  264 => 37,  261 => 36,  259 => 35,  256 => 34,  253 => 33,  250 => 32,  247 => 31,  244 => 30,  241 => 29,  238 => 28,  235 => 27,  232 => 26,  229 => 25,  226 => 24,  223 => 23,  218 => 19,  215 => 18,  212 => 17,  210 => 16,  207 => 15,  204 => 14,  201 => 13,  198 => 12,  195 => 11,  190 => 148,  186 => 146,  184 => 145,  77 => 41,  75 => 23,  69 => 21,  67 => 11,  62 => 9,  59 => 8,  57 => 7,  49 => 6,  45 => 4,  42 => 3,  32 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -374,6 +375,7 @@ class __TwigTemplate_d543a6531d8167a0c7f353da538f6e9b905c624aa2c92a8d09662a661b7
 
 {% block head %}
     <meta charset=\"utf-8\" />
+    <meta name=\"keywords\" content=\"nguyen-hong-nam, nguyenhongnam, hong-nam, hongnam, nhiep-anh, nhiepanh, nguyenhongnamdanang,  nguyen-hong-nam-da-nang, nguyen-hong-nam-song-han\">
     <title>{% if header.title %}{{ header.title }} | {% endif %}{{ site.title }}</title>
     {% include 'partials/metadata.html.twig' %}
     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no\">

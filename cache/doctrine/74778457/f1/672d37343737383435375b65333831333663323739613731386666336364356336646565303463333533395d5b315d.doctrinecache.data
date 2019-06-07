@@ -1,0 +1,92 @@
+1560487243
+a:2:{s:7:"content";s:2420:"<h1>Error: Invalid Frontmatter</h1>
+<p>Path: <code>C:/xampp/htdocs/nguyenhongnam2019/user/pages/03.gallery/gallery.md</code></p>
+<p><strong>Failed to read C:/xampp/htdocs/nguyenhongnam2019/user/pages/03.gallery/gallery.md: Malformed inline YAML string: 'Kiến trúc at line 88 (near "description: 'Kiến trúc ").</strong></p>
+<pre><code>---
+title: Gallery
+media_order: 
+menu: Gallery
+onpage_menu: true
+filters:
+    -
+        key: dong_vat
+        name: 'Động vật'
+    -
+        key: da_nang
+        name: 'Đà Nẵng'
+    -
+        key: thiennhien
+        name: 'thiên nhiên'
+    -
+        key: chan_dung
+        name: 'chân dung'
+    -
+        key: kien_truc
+        name: 'kiến trúc'
+    -
+        key: hoa_buom
+        name: 'hoa bướm'
+    -
+        key: hang_dong
+        name: 'hang động'
+gallery:
+    -
+        filter: da_nang
+        image: nguyen-hong-nam-da-nang-dep-cau-song-han.jpg
+        description: Sông hàn buổi tối
+    -
+        filter: dong_vat
+        image: nguyen-hong-nam-dong-vat-no-name.jpg
+        description: ' Đẹp quá '
+    -
+        filter: chan_dung
+        image: nguyen-hong-nam-chan-dung-mau-anh-4.jpg
+        description: 'Chân dung đẹp'
+    -
+        filter: thiennhien
+        image: nguyen-hong-nam-thien-nhien-chieu-ta.jpg
+        description: 'Cảnh chiều tà đẹp mê hồn'
+    -
+        filter: kien_truc
+        image: nguyen-hong-nam-kien-truc-cung-dien-mua-dong-bao-tang-ermitage.jpg
+        description: 'Cung điện mùa đông - bảo tàng ermitage  '
+    -
+        filter: hoa_buom
+        image: nguyen-hong-nam-hoa-buom-hoa.jpg
+        description: 'Hoa đẹp bướm đậu '        
+    -
+        filter: hang_dong
+        image: nguyen-hong-nam-hang-dong-dep.jpg
+        description: 'Hoa đẹp bướm đậu '
+
+    -
+        filter: da_nang
+        image: danang0016.jpg
+        description: Đà_Nẵng
+
+    -
+        filter: thiennhien
+        image: thiennhien0016.jpg
+        description: 'Thiên Nhiên'
+
+    -
+        filter: chan_dung
+        image: chandung0015.jpg
+        description: 'Chân Dung'
+
+    -
+        filter: kien_truc
+        image: kientruc0012.jpg
+        description: 'Kiến trúc 
+
+        '
+        filter: hoa_buom
+        image: hoa0023.jpg
+        description: 'Hoa  đẹp '
+    -
+        filter: hoa_buom
+        image: hoa0024.jpg
+        description: 'Hoa  đẹp '
+
+---
+</code></pre>";s:12:"content_meta";N;}

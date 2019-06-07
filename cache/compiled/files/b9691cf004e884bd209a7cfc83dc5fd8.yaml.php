@@ -2,15 +2,15 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/nguyenhongnam2019/user/config/site.yaml',
-    'modified' => 1557420760,
+    'modified' => 1559871108,
     'data' => [
         'title' => 'Grav',
         'author' => [
-            'name' => 'Joe Bloggs',
-            'email' => 'joe@example.com'
+            'name' => 'Nguyen Hong Nam',
+            'email' => 'nguyenhongnam2019@gmail.com'
         ],
         'metadata' => [
-            'description' => 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+            'description' => 'Nhiếp ảnh gia Nguyễn Hồng Nam.'
         ]
     ]
 ];

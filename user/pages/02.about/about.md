@@ -1,38 +1,19 @@
 ---
 title: About
-media_order: page2_img1.jpg
-menu: 'About me'
+media_order: nguyen-hong-nam-ta-dung-dak-nong.jpg
+menu: 'Về tôi'
 onpage_menu: true
 work:
     title: 'Về công việc của tôi'
-    description: 'nhiếp ảnh gia.'
-hiretitle: 'Gọi cho tôi nếu bạn muốn tư vấn , nói chuyện về nhiếp ảnh!'
-simple_form:
-    token: token-by-simpleform
-    template_file: hire
-    redirect_to: /thank-you-for-hire-me
+    description: 'Nhiếp ảnh gia'
+hiretitle: ''
+
 ---
 
 ##Giới thiệu về tôi
-![About](page2_img1.jpg "About") 
-###Slogan của tôi
-Tính cách:
+![Nguyễn Hồng Nam ](nguyen-hong-nam-ta-dung-dak-nong.jpg "About")
 
-Sở thích:
+ Gữi mail cho tôi nếu bạn muốn tư vấn, nói chuyện về nhiếp ảnh!
 
-Phương châm sống.
 
-Các thành tích đạt được
-
-                    
-                    
-##Kinh nghiệm bản thân
-###Kinh nghiệm trong việc nhiếp ảnh
-
-Chọn máy ảnh
-
-Chọn góc
-
-Giời gian chụp
-
-khoảng cách.....
+[Giữi mail cho tôi bấm vào đây](sendmail)

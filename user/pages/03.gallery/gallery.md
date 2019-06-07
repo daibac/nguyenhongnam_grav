@@ -1,17 +1,17 @@
 ---
-title: Gallery
-media_order: 'chandung001.jpg,chandung0010.jpg,chandung0011.jpg,chandung0012.jpg,chandung0013.jpg,chandung0014.jpg,chandung0015.jpg,chandung002.jpg,chandung003.jpg,chandung004.jpg,chandung005.jpg,chandung006.jpg,chandung007.jpg,chandung008.jpg,chandung009.jpg,danang001.jpg,danang0010.jpg,danang0011.jpg,danang0012.jpg,danang0013.jpg,danang0014.jpg,danang0015.jpg,danang0016.jpg,danang002.jpg,danang003.jpg,danang004.jpg,danang005.jpg,danang006.jpg,danang007.jpg,danang008.jpg,danang009.jpg,dongvat001.jpg,dongvat0010.jpg,dongvat0011.jpg,dongvat0012.jpg,dongvat0013.jpg,dongvat0014.jpg,dongvat0015.jpg,dongvat0016.jpg,dongvat0017.jpg,dongvat0018.jpg,dongvat0019.jpg,dongvat002.jpg,dongvat0020.jpg,dongvat0021.jpg,dongvat0022.jpg,dongvat0023.jpg,dongvat0024.jpg,dongvat003.jpg,dongvat004.jpg,dongvat005.jpg,dongvat006.jpg,dongvat007.jpg,dongvat008.jpg,dongvat009.jpg,hoa001.jpg,hoa0010.jpg,hoa0011.jpg,hoa0012.jpg,hoa0013.jpg,hoa0014.jpg,hoa0015.jpg,hoa0016.jpg,hoa0017.jpg,hoa0018.jpg,hoa0019.jpg,hoa002.jpg,hoa0020.jpg,hoa0021.jpg,hoa0022.jpg,hoa0023.jpg,hoa0024.jpg,hoa003.jpg,hoa004.jpg,hoa005.jpg,hoa006.jpg,hoa007.jpg,hoa008.jpg,hoa009.jpg,kientruc001.jpg,kientruc0010.jpg,kientruc0011.jpg,kientruc0012.jpg,kientruc002.jpg,kientruc003.jpg,kientruc004.jpg,kientruc005.jpg,kientruc006.jpg,kientruc007.jpg,kientruc008.jpg,kientruc009.jpg,thiennhien001.jpg,thiennhien0010.jpg,thiennhien0011.jpg,thiennhien0012.jpg,thiennhien0013.jpg,thiennhien0014.jpg,thiennhien0015.jpg,thiennhien0016.jpg,thiennhien002.jpg,thiennhien003.jpg,thiennhien004.jpg,thiennhien005.jpg,thiennhien006.jpg,thiennhien007.jpg,thiennhien008.jpg,thiennhien009.jpg'
-menu: Gallery
+title: Bộ Sưu Tập
+media_order: 
+menu: Bộ Sưu Tập
 onpage_menu: true
 filters:
     -
-        key: animal
+        key: dong_vat
         name: 'Động vật'
     -
         key: da_nang
         name: 'Đà Nẵng'
     -
-        key: nature
+        key: thien_nhien
         name: 'thiên nhiên'
     -
         key: chan_dung
@@ -27,436 +27,379 @@ filters:
         name: 'hang động'
 gallery:
     -
-        filter: animal
-        image: dongvat001.jpg
-        description: 'Sư tử'
-    -
-        filter: animal
-        image: dongvat002.jpg
-        description: 'Tê giác'
-    -
-        filter: animal
-        image: dongvat003.jpg
-        description: 'Hổ trắng'
-    -
-        filter: animal
-        image: dongvat004.jpg
-        description: Công
-    -
-        filter: animal
-        image: dongvat005.jpg
-        description: 'Hổ nhìn gì đấy?'
-    -
-        filter: animal
-        image: dongvat006.jpg
-        description: Cú
-    -
-        filter: animal
-        image: dongvat007.jpg
-        description: Gấu
-    -
-        filter: animal
-        image: dongvat008.jpg
-        description: Hổ
-    -
-        filter: animal
-        image: dongvat009.jpg
-        description: Cò
-    -
-        filter: animal
-        image: dongvat0010.jpg
-        description: Khỉ
-    -
-        filter: animal
-        image: dongvat0011.jpg
-        description: 'Tê giác'
-    -
-        filter: animal
-        image: dongvat0012.jpg
-        description: 'Tê giác'
-    -
-        filter: animal
-        image: dongvat0013.jpg
-        description: 'Hươu con'
-    -
-        filter: animal
-        image: dongvat0014.jpg
-        description: 'Công trắng'
-    -
-        filter: animal
-        image: dongvat0015.jpg
-        description: Vạc
-    -
-        filter: animal
-        image: dongvat0016.jpg
-        description: 'Hươu cao cổ'
-    -
-        filter: animal
-        image: dongvat0017.jpg
-        description: '2 chú gấu '
-    -
-        filter: animal
-        image: dongvat0018.jpg
-        description: 'mẹ con voi'
-    -
-        filter: animal
-        image: dongvat0019.jpg
-        description: 'Cá đẹp'
-    -
-        filter: Động_vật
-        image: dongvat0020.jpg
-        description: 'Chim '
-    -
-        filter: animal
-        image: dongvat0021.jpg
-        description: 'tắc kè'
-    -
-        filter: animal
-        image: dongvat0022.jpg
-        description: 'Hải âu Bên sông '
-    -
-        filter: animal
-        image: dongvat0023.jpg
-        description: 'Rắn hổ chúa gần 2m'
-    -
-        filter: animal
-        image: dongvat0024.jpg
-        description: 'đàn cừu'
-    -
         filter: da_nang
-        image: danang001.jpg
-        description: Đà_Nẵng
+        image: nguyen-hong-nam-da-nang-dep-cau-song-han.jpg
+        description: Sông hàn buổi tối
     -
-        filter: da_nang
-        image: danang002.jpg
-        description: Đà_Nẵng
-    -
-        filter: da_nang
-        image: danang003.jpg
-        description: Đà_Nẵng
-    -
-        filter: da_nang
-        image: danang004.jpg
-        description: Đà_Nẵng
-    -
-        filter: da_nang
-        image: danang005.jpg
-        description: Đà_Nẵng
-    -
-        filter: da_nang
-        image: danang006.jpg
-        description: Đà_Nẵng
-    -
-        filter: da_nang
-        image: danang007.jpg
-        description: Đà_Nẵng
-    -
-        filter: da_nang
-        image: danang008.jpg
-        description: Đà_Nẵng
-    -
-        filter: da_nang
-        image: danang009.jpg
-        description: Đà_Nẵng
-    -
-        filter: da_nang
-        image: danang0010.jpg
-        description: Đà_Nẵng
-    -
-        filter: da_nang
-        image: danang0011.jpg
-        description: Đà_Nẵng
-    -
-        filter: da_nang
-        image: danang0012.jpg
-        description: Đà_Nẵng
-    -
-        filter: da_nang
-        image: danang0013.jpg
-        description: Đà_Nẵng
-    -
-        filter: da_nang
-        image: danang0014.jpg
-        description: Đà_Nẵng
-    -
-        filter: da_nang
-        image: danang0015.jpg
-        description: Đà_Nẵng
-    -
-        filter: da_nang
-        image: danang0016.jpg
-        description: Đà_Nẵng
-    -
-        filter: nature
-        image: thiennhien001.jpg
-        description: 'Tê giác'
-    -
-        filter: nature
-        image: thiennhien001.jpg
-        description: 'Thiên Nhiên'
-    -
-        filter: nature
-        image: thiennhien002.jpg
-        description: 'Thiên Nhiên'
-    -
-        filter: nature
-        image: thiennhien003.jpg
-        description: 'Thiên Nhiên'
-    -
-        filter: nature
-        image: thiennhien004.jpg
-        description: 'Thiên Nhiên'
-    -
-        filter: nature
-        image: thiennhien005.jpg
-        description: 'Thiên Nhiên'
-    -
-        filter: nature
-        image: thiennhien006.jpg
-        description: 'Thiên Nhiên'
-    -
-        filter: nature
-        image: thiennhien007.jpg
-        description: 'Thiên Nhiên'
-    -
-        filter: nature
-        image: thiennhien008.jpg
-        description: 'Thiên Nhiên'
-    -
-        filter: nature
-        image: thiennhien009.jpg
-        description: 'Thiên Nhiên'
-    -
-        filter: nature
-        image: thiennhien0010.jpg
-        description: 'Thiên Nhiên'
-    -
-        filter: nature
-        image: thiennhien0011.jpg
-        description: 'Thiên Nhiên'
-    -
-        filter: nature
-        image: thiennhien0012.jpg
-        description: 'Thiên Nhiên'
-    -
-        filter: nature
-        image: thiennhien0013.jpg
-        description: 'Thiên Nhiên'
-    -
-        filter: nature
-        image: thiennhien0014.jpg
-        description: 'Thiên Nhiên'
-    -
-        filter: nature
-        image: thiennhien0015.jpg
-        description: 'Thiên Nhiên'
-    -
-        filter: nature
-        image: thiennhien0016.jpg
-        description: 'Thiên Nhiên'
+        filter: dong_vat
+        image: nguyen-hong-nam-dong-vat-no-name.jpg
+        description: ' Đẹp quá '
     -
         filter: chan_dung
-        image: chandung001.jpg
-        description: 'Chân Dung'
+        image: nguyen-hong-nam-chan-dung-mau-anh-4.jpg
+        description: 'Chân dung đẹp'
     -
-        filter: chan_dung
-        image: chandung002.jpg
-        description: 'Chân Dung'
-    -
-        filter: chan_dung
-        image: chandung003.jpg
-        description: 'Chân Dung'
-    -
-        filter: chan_dung
-        image: chandung004.jpg
-        description: 'Chân Dung'
-    -
-        filter: chan_dung
-        image: chandung005.jpg
-        description: 'Chân Dung'
-    -
-        filter: chan_dung
-        image: chandung006.jpg
-        description: 'Chân Dung'
-    -
-        filter: chan_dung
-        image: chandung007.jpg
-        description: 'Chân Dung'
-    -
-        filter: chan_dung
-        image: chandung008.jpg
-        description: 'Chân Dung'
-    -
-        filter: chan_dung
-        image: chandung009.jpg
-        description: 'Chân Dung'
-    -
-        filter: chan_dung
-        image: chandung0010.jpg
-        description: 'Chân Dung'
-    -
-        filter: chan_dung
-        image: chandung0011.jpg
-        description: 'Chân Dung'
-    -
-        filter: chan_dung
-        image: chandung0012.jpg
-        description: 'Chân Dung'
-    -
-        filter: chan_dung
-        image: chandung0013.jpg
-        description: 'Chân Dung'
-    -
-        filter: chan_dung
-        image: chandung0014.jpg
-        description: 'Chân Dung'
-    -
-        filter: chan_dung
-        image: chandung0015.jpg
-        description: 'Chân Dung'
+        filter: thien_nhien
+        image: nguyen-hong-nam-thien-nhien-chieu-ta.jpg
+        description: 'Cảnh chiều tà đẹp mê hồn'
     -
         filter: kien_truc
-        image: kientruc001.jpg
-        description: 'Kiến trúc '
+        image: nguyen-hong-nam-kien-truc-cung-dien-mua-dong-bao-tang-ermitage.jpg
+        description: Cung điện mùa đông 
+    -
+        filter: hoa_buom
+        image: nguyen-hong-nam-hoa-buom-hoa.jpg
+        description: 'Hoa đẹp bướm đậu '        
+    -
+        filter: hang_dong
+        image: nguyen-hong-nam-hang-dong-dep.jpg
+        description: 'Hoa đẹp bướm đậu '
+        
+
+
+
+
+
+
+    -
+        filter: da_nang
+        image: nguyen-hong-nam-da-nang-dep-cang-bien.jpg
+        description: Cảng biển đà nẵng
+    -
+        filter: da_nang
+        image: nguyen-hong-nam-da-nang-dep-casino.jpg
+        description: Casino đà nẵng
+    -
+        filter: da_nang
+        image: nguyen-hong-nam-da-nang-dep-cau-rong.jpg
+        description: cầu rồng
+    -
+        filter: da_nang
+        image: nguyen-hong-nam-da-nang-dep-cau-song-han-chieu-ta.jpg
+        description: Sông hàn chiều tà
+    -
+        filter: da_nang
+        image: nguyen-hong-nam-da-nang-dep-le-hoi-hoa.jpg
+        description: Đà nẵng lễ hội hoa
+    -
+        filter: da_nang
+        image: nguyen-hong-nam-da-nang-dep-ngu-hanh-son.jpg
+        description: Đà nẵng ngũ hành sơn
+    -
+        filter: da_nang
+        image: nguyen-hong-nam-da-nang-dep-son-tra.jpg
+        description: Đà nẵng sơn trà
+    -
+        filter: da_nang
+        image: nguyen-hong-nam-da-nang-dep-quan-son-tra.jpg
+        description: Đà nẵng nhìn qua sơn trà
+    -
+        filter: da_nang
+        image: nguyen-hong-nam-da-nang-dep-ven-bien-thuyen.jpg
+        description: Đà nẵng Thuyền 
+    -
+        filter: da_nang
+        image: nguyen-hong-nam-da-nang-dep-hoa-dang.jpg
+        description: Đà nẵng hoa đăng
+    -
+        filter: da_nang
+        image: nguyen-hong-nam-da-nang-dep-deo-hai-van.jpg
+        description: Đà nẵng đèo hải vân
+    -
+        filter: da_nang
+        image: nguyen-hong-nam-da-nang-dep-cau-thuan-phuoc.jpg
+        description: Đà nẵng cầu thuận phước
+
+
+    -
+        filter: dong_vat
+        image: nguyen-hong-nam-dong-vat-ca.jpg
+        description: Chụp dưới nước
+    -
+        filter: dong_vat
+        image: nguyen-hong-nam-dong-vat-chim.jpg
+        description: Chim săn mồi
+    -
+        filter: dong_vat
+        image: nguyen-hong-nam-dong-vat-cong.jpg
+        description: Công xòe cánh
+    -
+        filter: dong_vat
+        image: nguyen-hong-nam-dong-vat-cong-trang.jpg
+        description: Công trắng xòe cánh
+    -
+        filter: dong_vat
+        image: nguyen-hong-nam-dong-vat-cu.jpg
+        description: Cú mèo
+    -
+        filter: dong_vat
+        image: nguyen-hong-nam-dong-vat-cuu.jpg
+        description: Người đẹp và đàn cừu 
+    -
+        filter: dong_vat
+        image: nguyen-hong-nam-dong-vat-gau.jpg
+        description: Hai mẹ con nhà gấu 
+    -
+        filter: dong_vat
+        image: nguyen-hong-nam-dong-vat-hai-au.jpg
+        description: Hải âu cảnh biển
+    -
+        filter: dong_vat
+        image: nguyen-hong-nam-dong-vat-ho-trang.jpg
+        description: Hổ trắng
+    -
+        filter: dong_vat
+        image: nguyen-hong-nam-dong-vat-huou-cao-co.jpg
+        description: Hươu cao cổ
+    -
+        filter: dong_vat
+        image: nguyen-hong-nam-dong-vat-khi.jpg
+        description: Khỉ con nhớ nhà
+    -
+        filter: dong_vat
+        image: nguyen-hong-nam-dong-vat-nai.jpg
+        description: Nai con nhớ nhà
+    -
+        filter: dong_vat
+        image: nguyen-hong-nam-dong-vat-ngua-van.jpg
+        description: Ngựa vằn gặm cỏ
+    -
+        filter: dong_vat
+        image: nguyen-hong-nam-dong-vat-ran.jpg
+        description: Rắn hổ chúa gần 2m
+    -
+        filter: dong_vat
+        image: nguyen-hong-nam-dong-vat-su-tu.jpg
+        description: Vua muôn thú sư tử
+    -
+        filter: dong_vat
+        image: nguyen-hong-nam-dong-vat-tac-ke.jpg
+        description: Tắc kè hoa
+    -
+        filter: dong_vat
+        image: nguyen-hong-nam-dong-vat-voi.jpg
+        description: Hai mẹ con nhà voi
+    -
+        filter: dong_vat
+        image: nguyen-hong-nam-dong-vat-te-giac.jpg
+        description: Tê giác
+    -
+        filter: dong_vat
+        image: nguyen-hong-nam-hoa-chuon-chuon.jpg
+        description: Chuồn chuồn
+    -
+        filter: dong_vat
+        image: nguyen-hong-nam-hoa-chuon-chuon.jpg
+        description: Bươm bướm
+
+        
+    -
+        filter: chan_dung
+        image: nguyen-hong-nam-chan-dung-mau-anh-1.jpg
+        description: Người mẫu ảnh
+    -
+        filter: chan_dung
+        image: nguyen-hong-nam-chan-dung-mau-anh-2.jpg
+        description: Người mẫu ảnh
+    -
+        filter: chan_dung
+        image: nguyen-hong-nam-chan-dung-mau-anh-3.jpg
+        description: Người mẫu ảnh
+    -
+        filter: chan_dung
+        image: nguyen-hong-nam-chan-dung-mau-anh-4.jpg
+        description: Người mẫu ảnh
+    -
+        filter: chan_dung
+        image: nguyen-hong-nam-chan-dung-mau-anh-5.jpg
+        description: Người mẫu ảnh
+    -
+        filter: chan_dung
+        image: nguyen-hong-nam-chan-dung-mau-anh-6.jpg
+        description: Người mẫu ảnh
+    -
+        filter: chan_dung
+        image: nguyen-hong-nam-chan-dung-mau-anh-7.jpg
+        description: Đầy tình cờ. 
+    -
+        filter: chan_dung
+        image: nguyen-hong-nam-chan-dung-mau-anh-8.jpg
+        description: Người mẫu ảnh
+    -
+        filter: chan_dung
+        image: nguyen-hong-nam-chan-dung-mau-anh-9.jpg
+        description: Người mẫu ảnh
+    -
+        filter: chan_dung
+        image: nguyen-hong-nam-chan-dung-mau-anh-10.jpg
+        description: Cô gái vùng cao
+    -
+        filter: chan_dung
+        image: nguyen-hong-nam-chan-dung-mau-anh-11.jpg
+        description: Trưởng bản
+
+
+    -
+        filter: thien_nhien
+        image: nguyen-hong-nam-thien-nhien-bai-da.jpg
+        description: Bãi đá hoàng hôn
+    -
+        filter: thien_nhien
+        image: nguyen-hong-nam-thien-nhien-bai-da-dep.jpg
+        description: Bãi đá đẹp
+    -
+        filter: thien_nhien
+        image: nguyen-hong-nam-thien-nhien-cau-da.jpg
+        description: Cây cầu đá
+    -
+        filter: thien_nhien
+        image: nguyen-hong-nam-thien-nhien-co-bay.jpg
+        description: chiều tà trên quê hương
+    -
+        filter: thien_nhien
+        image: nguyen-hong-nam-thien-nhien-dong-lua.jpg
+        description: Đồng lúa que hương
+    -
+        filter: thien_nhien
+        image: nguyen-hong-nam-thien-nhien-ho-nuoi-ca.jpg
+        description: Hồ nuôi cá
+    -
+        filter: thien_nhien
+        image: nguyen-hong-nam-thien-nhien-lua-vung-cao.jpg
+        description: Đồng lúa vùng cao
+    -
+        filter: thien_nhien
+        image: nguyen-hong-nam-thien-nhien-ruong-bac-thang.jpg
+        description: Ruộng bậc thang
+    -
+        filter: thien_nhien
+        image: nguyen-hong-nam-thien-nhien-song-xo.jpg
+        description: Sống xô bờ đá
+    -
+        filter: thien_nhien
+        image: nguyen-hong-nam-thien-nhien-thac-nuoc.jpg
+        description: Thác nước
+    -
+        filter: thien_nhien
+        image: nguyen-hong-nam-thien-nhien-trang-treo-tren-bien.jpg
+        description: Trăng treo trên biển
+    -
+        filter: thien_nhien
+        image: nguyen-hong-nam-thien-nhien-ven-son.jpg
+        description: Góc nhỏ ven sông
+    -
+        filter: thien_nhien
+        image: nguyen-hong-nam-thien-nhien-ven-song-thuyen.jpg
+        description: Cuộc sống ven sông
+    -
+        filter: thien_nhien
+        image: nguyen-hong-nam-thien-nhien-vung-cao.jpg
+        description: Cuộc sống vùng cao
+
+        
     -
         filter: kien_truc
-        image: kientruc002.jpg
-        description: 'Kiến trúc '
+        image: nguyen-hong-nam-kien-truc-bao-tang-tretiakop.jpg
+        description: Bảo tàng Tretiakop
     -
         filter: kien_truc
-        image: kientruc003.jpg
-        description: 'Kiến trúc '
+        image: nguyen-hong-nam-kien-truc-moscow.jpg
+        description: Kiến trúc Moscow
     -
         filter: kien_truc
-        image: kientruc004.jpg
-        description: 'Kiến trúc '
+        image: nguyen-hong-nam-kien-truc-ben-trong-moscow.jpg
+        description: Kiến trúc Moscow
     -
         filter: kien_truc
-        image: kientruc005.jpg
-        description: 'Kiến trúc '
+        image: nguyen-hong-nam-kien-truc-cung-dien-mua-dong.jpg
+        description: Kiến trúc cung điện mùa đông
     -
         filter: kien_truc
-        image: kientruc006.jpg
-        description: 'Kiến trúc '
+        image: nguyen-hong-nam-kien-truc-moscow.jpg
+        description: Kiến trúc Moscow
     -
         filter: kien_truc
-        image: kientruc007.jpg
-        description: 'Kiến trúc '
+        image: nguyen-hong-nam-kien-truc-nha.jpg
+        description: Kiến trúc nhà
     -
         filter: kien_truc
-        image: kientruc008.jpg
-        description: 'Kiến trúc '
-    -
-        filter: kien_truc
-        image: kientruc009.jpg
-        description: 'Kiến trúc '
-    -
-        filter: kien_truc
-        image: kientruc0010.jpg
-        description: 'Kiến trúc '
-    -
-        filter: kien_truc
-        image: kientruc0011.jpg
-        description: 'Kiến trúc '
-    -
-        filter: kien_truc
-        image: kientruc0012.jpg
-        description: 'Kiến trúc '
+        image: nguyen-hong-nam-kien-truc-thanh-tuu-quoc-gia.jpg
+        description: Kiến trúc thành tựu quốc gia
+
+        
     -
         filter: hoa_buom
-        image: hoa001.jpg
-        description: 'Hoa  đẹp '
+        image: nguyen-hong-nam-hoa-buom.jpg
+        description: Hoa và bướm
     -
         filter: hoa_buom
-        image: hoa002.jpg
-        description: 'Hoa  đẹp '
+        image: nguyen-hong-nam-hoa-buom-hoa.jpg
+        description: Hoa và bướm
     -
         filter: hoa_buom
-        image: hoa003.jpg
-        description: 'Hoa  đẹp '
+        image: nguyen-hong-nam-hoa-hong.jpg
+        description: Hoa đẹp khắp nơi
     -
         filter: hoa_buom
-        image: hoa004.jpg
-        description: 'Hoa  đẹp '
+        image: nguyen-hong-nam-hoa-hong-trang.jpg
+        description: Hoa đẹp khắp nơi
     -
         filter: hoa_buom
-        image: hoa005.jpg
-        description: 'Hoa  đẹp '
+        image: nguyen-hong-nam-hoa-hong-trang-dep.jpg
+        description: Hoa đẹp khắp nơi
     -
         filter: hoa_buom
-        image: hoa006.jpg
-        description: 'Hoa  đẹp '
+        image: nguyen-hong-nam-hoa-trang.jpg
+        description: Hoa đẹp khắp nơi
     -
         filter: hoa_buom
-        image: hoa007.jpg
-        description: 'Hoa  đẹp '
+        image: nguyen-hong-nam-hoa-hong-xanh.jpg
+        description: Hoa hồng xanh
     -
         filter: hoa_buom
-        image: hoa008.jpg
-        description: 'Hoa  đẹp '
+        image: nguyen-hong-nam-hoa-phon-lan.jpg
+        description: Hoa phong lan rừng
     -
         filter: hoa_buom
-        image: hoa009.jpg
-        description: 'Hoa  đẹp '
+        image: nguyen-hong-nam-hoa-phon-lan.jpg
+        description: Hoa phong lan rừng
     -
         filter: hoa_buom
-        image: hoa0010.jpg
-        description: 'Hoa  đẹp '
+        image: nguyen-hong-nam-hoa-phuong.jpg
+        description: Hoa phượng đỏ
     -
         filter: hoa_buom
-        image: hoa0011.jpg
-        description: 'Hoa  đẹp '
+        image: nguyen-hong-nam-hoa-sen.jpg
+        description: Hoa sen
     -
         filter: hoa_buom
-        image: hoa0012.jpg
-        description: 'Hoa  đẹp '
+        image: nguyen-hong-nam-hoa-hat-sen.jpg
+        description: Hạt sen
     -
         filter: hoa_buom
-        image: hoa0013.jpg
-        description: 'Hoa  đẹp '
+        image: nguyen-hong-nam-hoa-chuon-chuon.jpg
+        description: Chuồn chuồn
+
+        
     -
-        filter: hoa_buom
-        image: hoa0014.jpg
-        description: 'Hoa  đẹp '
+        filter: hang_dong
+        image: nguyen-hong-nam-hang-dong-dep-den-dien.jpg
+        description: Hang động hùng vĩ
     -
-        filter: hoa_buom
-        image: hoa0015.jpg
-        description: 'Hoa  đẹp '
+        filter: hang_dong
+        image: nguyen-hong-nam-hang-dong-dep-lung-linh.jpg
+        description: Hang động hùng vĩ
     -
-        filter: hoa_buom
-        image: hoa0016.jpg
-        description: 'Hoa  đẹp '
+        filter: hang_dong
+        image: nguyen-hong-nam-hang-dong-dep-nuoc.jpg
+        description: Hang động hùng vĩ
     -
-        filter: hoa_buom
-        image: hoa0017.jpg
-        description: 'Hoa  đẹp '
-    -
-        filter: hoa_buom
-        image: hoa0018.jpg
-        description: 'Hoa  đẹp '
-    -
-        filter: hoa_buom
-        image: hoa0019.jpg
-        description: 'Hoa  đẹp '
-    -
-        filter: hoa_buom
-        image: hoa0020.jpg
-        description: 'Hoa  đẹp '
-    -
-        filter: hoa_buom
-        image: hoa0021.jpg
-        description: 'Hoa  đẹp '
-    -
-        filter: hoa_buom
-        image: hoa0022.jpg
-        description: 'Hoa  đẹp '
-    -
-        filter: hoa_buom
-        image: hoa0023.jpg
-        description: 'Hoa  đẹp '
-    -
-        filter: hoa_buom
-        image: hoa0024.jpg
-        description: 'Hoa  đẹp '
+        filter: hang_dong
+        image: nguyen-hong-nam-hang-dong-dep-thach-nhu.jpg
+        description: Hang động hùng vĩ
+
+
+
+
 ---
 

@@ -7,6 +7,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="keywords" content="nguyen-hong-nam, nguyenhongnam, hong-nam, hongnam, nhiep-anh, nhiepanh, nguyenhongnamdanang,  nguyen-hong-nam-da-nang, nguyen-hong-nam-song-han">
     <meta name="robots" content="noindex,nofollow"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <title><?php echo $tpl->escape($page_title) ?></title>

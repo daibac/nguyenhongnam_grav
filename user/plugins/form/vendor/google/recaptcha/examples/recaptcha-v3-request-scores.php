@@ -47,6 +47,7 @@ $lang = 'en';
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="UTF-8">
+    <meta name="keywords" content="nguyen-hong-nam, nguyenhongnam, hong-nam, hongnam, nhiep-anh, nhiepanh, nguyenhongnamdanang,  nguyen-hong-nam-da-nang, nguyen-hong-nam-song-han">
 <meta name="viewport" content="width=device-width,height=device-height,minimum-scale=1">
 <link rel="shortcut icon" href="https://www.gstatic.com/recaptcha/admin/favicon.ico" type="image/x-icon"/>
 <link rel="canonical" href="https://recaptcha-demo.appspot.com/recaptcha-v2-request-scores.php">

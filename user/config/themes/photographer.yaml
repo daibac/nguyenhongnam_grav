@@ -1,4 +1,4 @@
 enabled: true
 color: blue
 dropdown:
-  enabled: false
+  enabled: true

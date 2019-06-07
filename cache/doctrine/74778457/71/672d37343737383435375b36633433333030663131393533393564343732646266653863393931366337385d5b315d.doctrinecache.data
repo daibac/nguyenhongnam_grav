@@ -1,0 +1,25 @@
+1560498828
+a:2:{s:7:"content";s:1097:"<div class="row_4">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 chef row4_col">
+                <h2>Về Tôi</h2>
+                <figure><img alt="" src="/nguyenhongnam2019/user/pages/01.home/_footer/nguyen-hong-nam-nhiep-anh-gia.jpg" /></figure>
+                <p class="title3">Nhiếp ảnh gia</p>
+                <p>Vì đam mê nhiếp ảnh!</p>
+                <a href="about" class="btn-link btn-link2">read more<span></span></a>
+            </div>
+            <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-3 col-md-3 col-sm-3 row4_col">
+                <h2></h2>                        
+                <ul class="list2">
+                                   </ul> 
+           </div>
+           <div class="col-lg-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-3 col-md-3 col-sm-3 locations row4_col">
+            <h2>Địa Chỉ</h2>
+            <figure></figure>
+            <p class="title4"><br>Đà Nẵng - Việt Nam<br></p>
+            <hr class="line1">
+        </div>
+    </div>
+</div>
+</div>";s:12:"content_meta";N;}

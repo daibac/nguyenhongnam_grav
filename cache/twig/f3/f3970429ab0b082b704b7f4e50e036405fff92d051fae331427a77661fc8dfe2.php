@@ -63,11 +63,11 @@ class __TwigTemplate_083ce0b6a38bc24eac2539b1d604b6a8df5a74651a8f338f18e86eaa8cf
             </div>
             <div class=\"col-lg-4 col-md-4 col-sm-4 footercol\">
                 <p class=\"footerpriv\">
-                    Nhiếp ảnh gia chuyên nghiệp 
-                    &bull;&copy;2013&bull;<a class=\"privacylink\" href=\"";
+                    Nguyễn Hồng Nam &bull; &copy; 2019 &bull;<br>
+\t\t\t\t\t<a class=\"privacylink\" href=\"";
         // line 17
         echo ($context["base_url_absolute"] ?? null);
-        echo "/privacy\">Privacy policy</a>
+        echo "/privacy\"> Chính sách bảo mật</a>
                 </p>
             </div>
         </div>
@@ -115,8 +115,8 @@ class __TwigTemplate_083ce0b6a38bc24eac2539b1d604b6a8df5a74651a8f338f18e86eaa8cf
             </div>
             <div class=\"col-lg-4 col-md-4 col-sm-4 footercol\">
                 <p class=\"footerpriv\">
-                    Nhiếp ảnh gia chuyên nghiệp 
-                    &bull;&copy;2013&bull;<a class=\"privacylink\" href=\"{{ base_url_absolute }}/privacy\">Privacy policy</a>
+                    Nguyễn Hồng Nam &bull; &copy; 2019 &bull;<br>
+\t\t\t\t\t<a class=\"privacylink\" href=\"{{ base_url_absolute }}/privacy\"> Chính sách bảo mật</a>
                 </p>
             </div>
         </div>

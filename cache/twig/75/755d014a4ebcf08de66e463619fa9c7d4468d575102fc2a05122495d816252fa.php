@@ -57,7 +57,10 @@ class __TwigTemplate_a7a0672876cf83f5ffc322f4b39f0c551905273d8414a0ff1e053779599
             // line 7
             echo $this->getAttribute($context["category"], "class", []);
             echo "\">
-                            <a href=\"#\">
+                            <a href=\"";
+            // line 8
+            echo $this->getAttribute($context["category"], "href", []);
+            echo "\">
                                 ";
             // line 9
             if (($this->getAttribute($context["category"], "title_position", []) == "top")) {
@@ -119,7 +122,7 @@ class __TwigTemplate_a7a0672876cf83f5ffc322f4b39f0c551905273d8414a0ff1e053779599
 
     public function getDebugInfo()
     {
-        return array (  101 => 20,  84 => 16,  78 => 14,  76 => 13,  71 => 12,  65 => 10,  63 => 9,  58 => 7,  53 => 6,  36 => 5,  30 => 1,);
+        return array (  104 => 20,  87 => 16,  81 => 14,  79 => 13,  74 => 12,  68 => 10,  66 => 9,  62 => 8,  58 => 7,  53 => 6,  36 => 5,  30 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -139,7 +142,7 @@ class __TwigTemplate_a7a0672876cf83f5ffc322f4b39f0c551905273d8414a0ff1e053779599
                 {% for category in page.header.categories %}
                     <li class=\"col-lg-4 col-md-4 col-sm-4 listbox{{ loop.index }}\">
                         <div class=\"{{ category.class }}\">
-                            <a href=\"#\">
+                            <a href=\"{{ category.href }}\">
                                 {% if category.title_position == 'top' %}
                                     <p>{{ category.title }}</p>
                                 {% endif %}
