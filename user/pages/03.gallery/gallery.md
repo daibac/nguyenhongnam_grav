@@ -1,7 +1,7 @@
 ---
 title: Bộ Sưu Tập
 media_order: 
-menu: Bộ Sưu Tập
+menu: 'Gallery'
 onpage_menu: true
 filters:
     -

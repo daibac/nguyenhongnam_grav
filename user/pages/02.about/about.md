@@ -1,7 +1,7 @@
 ---
 title: About
 media_order: nguyen-hong-nam-ta-dung-dak-nong.jpg
-menu: 'Về tôi'
+menu: 'About me'
 onpage_menu: true
 work:
     title: 'Về công việc của tôi'

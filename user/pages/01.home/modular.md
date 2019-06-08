@@ -1,6 +1,6 @@
 ---
 title: Photographer
-menu: Trang Chủ
+menu: Home
 onpage_menu: true
 body_class: index
 header_class: alt
