@@ -25,6 +25,9 @@ filters:
     -
         key: hang_dong
         name: 'hang động'
+    -
+        key: phao_hoa
+        name: 'Pháo Hoa'
 gallery:
     -
         filter: da_nang
@@ -54,6 +57,10 @@ gallery:
         filter: hang_dong
         image: nguyen-hong-nam-hang-dong-dep.jpg
         description: 'Hoa đẹp bướm đậu '
+    -
+        filter: phao_hoa
+        image: nguyen-hong-nam-phao-hoa-bo-cong-anh.jpg
+        description: 'Pháo hoa đẹp ngất ngây '
         
 
 
@@ -394,6 +401,43 @@ gallery:
         image: nguyen-hong-nam-hang-dong-dep-thach-nhu.jpg
         description: Hang động hùng vĩ
 
+    -
+        filter: phao_hoa
+        image: nguyen-hong-nam-phao-hoa-cau-rong.jpg
+        description: 'Pháo hoa đẹp ngất ngây '
+    -
+        filter: phao_hoa
+        image: nguyen-hong-nam-phao-hoa-finist.jpg
+        description: 'Pháo hoa đẹp ngất ngây '
+    -
+        filter: phao_hoa
+        image: nguyen-hong-nam-phao-hoa-khai-mac.jpg
+        description: 'Pháo hoa đẹp ngất ngây '
+    -
+        filter: phao_hoa
+        image: nguyen-hong-nam-phao-hoa-no-no.jpg
+        description: 'Pháo hoa đẹp ngất ngây '
+    -
+        filter: phao_hoa
+        image: nguyen-hong-nam-phao-hoa-sac-xanh.jpg
+        description: 'Pháo hoa đẹp ngất ngây '
+    -
+        filter: phao_hoa
+        image: nguyen-hong-nam-phao-hoa-sao-roi.jpg
+        description: 'Pháo hoa đẹp ngất ngây '
+    -
+        filter: phao_hoa
+        image: nguyen-hong-nam-phao-hoa-tam-gan.jpg
+        description: 'Pháo hoa đẹp ngất ngây '
+    -
+        filter: phao_hoa
+        image: nguyen-hong-nam-phao-hoa-thuan-phuoc.jpg
+        description: 'Pháo hoa đẹp ngất ngây '
+    -
+        filter: phao_hoa
+        image: nguyen-hong-nam-phao-hoa-thuan-phuoc.jpg
+        description: 'Pháo hoa đẹp ngất ngây '
+        
 
 
 
