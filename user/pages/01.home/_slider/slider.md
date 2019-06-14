@@ -1,4 +1,4 @@
 ---
-title: 'Welcome to pages of Nguyễn Hồng Nam!'
+title: 'Nguyễn Hồng Nam!'
 ---
 

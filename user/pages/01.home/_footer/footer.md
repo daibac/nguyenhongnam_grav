@@ -9,7 +9,6 @@ about:
 
 locations:
   title: Địa Chỉ
-  logo: 
   text: <br>Đà Nẵng - Việt Nam<br>
 
 ---
